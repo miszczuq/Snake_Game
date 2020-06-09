@@ -1,0 +1,19 @@
+root{
+    display: block;
+}
+.root {
+    -fx-bacground-image : url("img/background.jpg");
+}
+.button{
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#4eb13d, #11581c);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+.button:hover {
+    -fx-background-color: linear-gradient(#479336, #114b1c);
+}
+.button:pressed {
+    -fx-background-color: linear-gradient(#11581c, #4eb13d);
+}
