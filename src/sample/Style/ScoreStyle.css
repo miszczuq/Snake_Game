@@ -1,0 +1,22 @@
+
+.list-cell:selected {
+    -fx-background-color: #434343;
+}
+
+.list-cell {
+    -fx-background-color: #538f3c;
+    -fx-text-fill: white;
+}
+
+.list-cell:even {
+    -fx-background-color: #6eb84a;
+    -fx-text-fill: rgb(250, 255, 255);
+}
+
+.list-cell:even:selected {
+    -fx-background-color: #434343;
+}
+
+.label {
+    -fx-text-fill: white;
+}
